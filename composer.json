@@ -13,7 +13,8 @@
     "require": {
         "php":">5.4.0",
         "yiisoft/yii2": "*",
-        "bower-asset/fullcalendar": "*"
+        "bower-asset/fullcalendar": "*",
+        "bower-asset/moment":"*"
     },
     "autoload": {
         "psr-4": {
