@@ -29,5 +29,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \orezomi\fullc\AutoloadExample::widget(); ?>
+<?= \orezomi\fullc\FullCall::widget(); ?>
 ```
