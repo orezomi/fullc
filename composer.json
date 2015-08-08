@@ -1,22 +1,7 @@
 {
     "name": "orezomi/fullc",
     "description": "OrezomiFullC",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Harismo Aji",
-            "email": "harismoaji@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "orezomi\\fullc\\": ""
-        }
     }
 }
