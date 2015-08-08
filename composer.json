@@ -2,7 +2,6 @@
     "name": "orezomi/fullc",
     "description": "OrezomiFullC",
     "require": {
-        "yiisoft/yii2": "*",
-        "arshaw/fullcalendar": "*"
+        "yiisoft/yii2": "*"
     }
 }
