@@ -13,4 +13,9 @@ class FullcAsset extends AssetBundle
     public $js = [
     	'moment/min/moment.min.js','fullcalendar/dist/fullcalendar.min.js'
     ];
+    public $depends = [
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
+    ];
 }
