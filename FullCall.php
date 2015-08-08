@@ -4,6 +4,7 @@ namespace orezomi\fullc;
 
 use orezomi\fullc\FullcAsset;
 use yii\helpers\Html;
+use yii\web\View;
 
 /**
  * This is just an example.
@@ -14,8 +15,8 @@ class FullCall extends \yii\base\Widget
     {
     	$view = $this->getView();
     	FullcAsset::register($view);
-    	// $content = '$(document).ready(function(){$("#calendar").fullCalendar({})});';
-    	// echo Html::script($content,['type'=>'text/javascript']);
-     //    echo "<div id='calendar'></div>";
+    	$content = '$(document).ready(function(){$("#calendar").fullCalendar({})});';
+    	$this->getView()->registerJs($content, View::POS_END);
+    	echo "<div id='calendar'></div>";
     }
 }
