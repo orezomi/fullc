@@ -10,6 +10,9 @@
             "email": "harismoaji@gmail.com"
         }
     ],
+    "support": {
+		"source": "https://github.com/orezomi/fullc"
+	},
     "require": {
         "yiisoft/yii2": "*"
     },
