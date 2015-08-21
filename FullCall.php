@@ -11,11 +11,15 @@ use yii\web\View;
  */
 class FullCall extends \yii\base\Widget
 {
+    public $jsonurl;
+
     public function run()
     {
     	$view = $this->getView();
     	FullcAsset::register($view);
-    	$content = '$(document).ready(function(){$("#calendar").fullCalendar({})});';
+    	$content = '$(document).ready(function(){$(\'#calendar\').fullCalendar({
+			    events: \''.$this->jsonurl.'\'
+    	})});';
     	$this->getView()->registerJs($content, View::POS_END);
     	echo "<div id='calendar'></div>";
     }
